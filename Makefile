@@ -30,6 +30,7 @@ clean:
 
 install: dist
 	python3 setup.py install
+	
 
 test:
 	cd tests && ./all.sh
